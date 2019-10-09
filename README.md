@@ -36,3 +36,7 @@ The previous URL uses the new-line character. To use the carriage-return followe
 ```
 http://localhost:8080/csv/format?stringCsv=%22Patient%20Name%22,%22SSN%22,%22Age%22,%22Phone%20Number%22,%22Status%22%0D%0A%22Prescott,%20Zeke%22,%22542-51-6641%22,21,%22801-555-2134%22,%22Opratory%3D2,PCP%3D1%22%0D%0A%22Goldstein,%20Bucky%22,%22635-45-1254%22,42,%22435-555-1541%22,%22Opratory%3D1,PCP%3D1%22%0D%0A%22Vox,%20Bono%22,%22414-45-1475%22,51,%22801-555-2100%22,%22Opratory%3D3,PCP%3D2%22
 ```
+
+The unit test class is in `src/test/java/com/paulland/henryschein/codingtest/CsvControllerTest.java`.
+
+The controller code that handles the logic for parsing the CSV string is in `src/main/java/com/paulland/henryschein/codingtest/CsvController.java`
