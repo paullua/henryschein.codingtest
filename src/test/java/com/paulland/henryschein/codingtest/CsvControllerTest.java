@@ -12,10 +12,10 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class csvControllerTest {
+public class CsvControllerTest {
 
   @Autowired
-  csvController csvController;
+  CsvController csvController;
 
   private static final String INPUT = "\"Patient Name\",\"SSN\",\"Age\",\"Phone Number\",\"Status\"\n" +
       "\"Prescott, Zeke\",\"542-51-6641\",21,\"801-555-2134\",\"Opratory=2,PCP=1\"\n" +
